@@ -2,6 +2,7 @@ body,html {
 	margin: 0;
 	padding: 0;
 	direction: rtl;
+	font-family: 'Arimo', sans-serif;
 }
 
 header {
@@ -20,12 +21,15 @@ header {
 
 .task {
 	width: 100%;
-	background: antiquewhite;
+	/* background: antiquewhite; */
 }
 
 .task div {
-	/* float: right; */
 	margin: 10px;
+}
+
+.task:hover {
+	background: #efefef;
 }
 
 hr {
@@ -48,6 +52,7 @@ hr {
 
 .remove {
 	float: left;
+	cursor: pointer;
 }
 
 .taskName input[type="text"] {
